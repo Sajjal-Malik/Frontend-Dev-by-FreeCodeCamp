@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4f4f9;
+  color: #333;
+}
+
+.container {
+  display: grid;
+  gap: 20px;
+}
+
+.title {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+
+
+.editor-container textarea{
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.previewer-container {
+  border: 2px solid black;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  min-height: 200px;
+}
